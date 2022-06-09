@@ -63,12 +63,12 @@ function HeaderApp() {
             </Nav>
             
             <span className="counter-container me-4">
-              <img src={favorite} />
+              <img src={favorite} alt="favorite" />
               <span className="counter-badage">0</span>
             </span>
-            <img src={user} className="me-4"/>
+            <img src={user} alt="user" className="me-4"/>
             <span className="counter-container me-4">
-            <img src={cart} /> 
+            <img src={cart} alt="cart" /> 
             <span className="counter-badage">0</span>
             </span>
           </Navbar.Collapse>
