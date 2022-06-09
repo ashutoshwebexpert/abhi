@@ -1,0 +1,18 @@
+.product_details_img_slider{
+    width: 102px;
+    height: 104px;
+    border-radius:5px;
+}
+.productDetails h2{
+    padding: 2% 0;
+}
+.productDetails .product_dtl{
+    padding: 1% 0;
+    border-radius: 8px;
+}
+.productDetails_sec1{
+    margin:4% 0 1% 0;
+}
+.productDetails_sec2{
+    margin:4% 0 0 0;
+}
