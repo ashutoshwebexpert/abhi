@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/" element={<HomeApp/>} />
           <Route path="/products/:category" element={<Products/>} />
           <Route path="/products/details" element={<ProductDetails/>} />
-          <Route path="/testing" element={<Testing/>} />
+          <Route exact path="/testing" element={<Testing/>} />
           <Route path="*" element={<PageNotFound/>} status={404}/>
         </Routes>
         <FooterApp />
